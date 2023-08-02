@@ -1,0 +1,57 @@
+html{
+    background-color: whitesmoke;
+}
+.container{
+    display: grid;
+    grid: "header-container header-container " auto
+          "box1 box2" auto
+          "box1 box2" auto;                     
+    padding: 0.5px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 14px 1px black;
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+    align-items: center;
+    margin: 60px
+}
+
+.header-container{
+    grid-area: header-container;
+    background-color: white;
+    padding: 100px 30px;
+    
+}
+
+.box1{
+    grid-area: box1;
+    background-color: hsl(179, 62%, 43%);
+    align-items: center;
+    padding: 40px 30px;
+    width: 100%;
+}
+
+.box2{
+    grid-area: box2;
+    background-color: hsl(179, 65%, 57%);
+    align-items: center;
+    padding: 40px 30px;
+    width: 100%;
+}
+
+.title1{
+    color:hsl(179, 62%, 43%) ;
+ }
+ .title2{
+     color: hsl(71, 73%, 54%);
+ }
+
+.sign-up{
+    background-color:hsl(71, 73%, 54%) ;
+    color: #fff;
+    border: none;
+    outline: none;
+    min-width: 100%;
+    padding: 15px;
+    margin-top: 26px;
+}

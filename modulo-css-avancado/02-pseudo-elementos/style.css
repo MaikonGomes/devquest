@@ -1,0 +1,23 @@
+/* seletor::pseudo-elemento{
+    propriedade: valor;
+} */
+
+p::first-letter{
+    color: coral;
+}
+
+li::marker{
+    color: red;
+    font-size: 24px;
+}
+
+/* before é para colocar antes
+after é para colocar antes */
+.before::before{
+    content: url(favicon.ico)
+}
+
+
+.after::after{
+    content: url(favicon.ico)
+}

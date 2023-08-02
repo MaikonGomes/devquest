@@ -1,0 +1,86 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .main-section {
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .social-icon {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: #bbb;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    margin: 5px;
+  }
+  
+  /* Estilos adicionais conforme necessário para outras seções */
+  
+  /* Estilos para dispositivos menores */
+  @media (max-width: 768px) {
+    nav {
+      display: none;
+      position: absolute;
+      top: 50px;
+      left: 0;
+      background-color: #333;
+      width: 100%;
+      padding: 10px;
+    }
+  
+    nav.active {
+      display: block;
+    }
+  
+    nav ul {
+      list-style: none;
+      padding: 0;
+      text-align: center;
+    }
+  
+    nav li {
+      display: block;
+      margin-bottom: 10px;
+    }
+  
+    nav a {
+      color: #fff;
+      text-decoration: none;
+    }
+  }
+  

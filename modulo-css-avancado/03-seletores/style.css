@@ -1,0 +1,44 @@
+html{
+    background-color: bisque;
+}
+
+.paragrafo{
+    color: blue;
+}
+
+#menu{
+    margin-left: 100px;
+}
+
+.titulo.laranja{
+    color: orange;
+}
+
+.titulo.vermelho{
+    color: red;
+}
+
+.titulo{
+    font-size: 30px
+}
+
+p, span{
+    color: green;
+}
+
+.sobre .texto{
+    color: yellowgreen;
+}
+
+/* pai > filho */
+/* div > p{
+    color: royalblue;
+} */
+
+div + p{
+    color: royalblue;
+}
+
+a[target=_blank]{
+    color: red;
+}
